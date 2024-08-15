@@ -24,7 +24,6 @@ poemElement.innerHTML = `<div class="generating">⏳ Generating a poem about ${i
 
   axios.get(apiURL).then(displayPoem); 
 
- 
 }
 
 let poemFormElement = document.querySelector("#poem-generator-form");
